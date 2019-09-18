@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		#bra{width: 100%;}
+		#brb{opacity: 0;}
+	</style>
+	<title></title>
+</head>
+<body id="mybody">
+	<img src="bread.jpg" id="bra"><br>
+	<img src="b_ing.gif" id="brb">
+	<audio id="brc" loop>
+  		<source src="b_song.mp3" type="audio/mpeg">
+	</audio>
+	<script type="text/javascript">
+		bra.onclick = function(){
+			brc.play();
+			bra.style.opacity = "0";
+			mybody.style.background = "url('b_ing.gif')"
+		
+		}
+	</script>
+
+</body>
+</html>
